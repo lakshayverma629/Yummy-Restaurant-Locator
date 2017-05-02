@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+H:\yummy\.metadata\.plugins\org.eclipse.jdt.core
+2467503279.index
+239091651.index
+451481658.index
+2568199334.index
+848856923.index
+4035218770.index
+2521384339.index

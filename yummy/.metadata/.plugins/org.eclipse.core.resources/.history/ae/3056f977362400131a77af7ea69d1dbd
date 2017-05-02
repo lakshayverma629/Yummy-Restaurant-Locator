@@ -1,0 +1,20 @@
+package com.example.yummy;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class Hotel_info extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hotel_info);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_hotel_info, menu);
+        return true;
+    }
+}

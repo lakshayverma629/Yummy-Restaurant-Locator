@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all"
+     >
+
+    <Button
+        android:id="@+id/gbtnret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/gbutret" />
+
+    <Button
+        android:id="@+id/gbtnstat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gbtnret"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gbutstat" />
+
+    <Button
+        android:id="@+id/gbtnst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gbtnret"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gbtnst" />
+   <Button 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/gbtnstat"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/gbtnbook"
+       android:text="@string/gbtnbook"/>
+
+   <Button
+       android:id="@+id/gbtnabt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/gbtnst"
+       android:layout_centerHorizontal="true"
+       android:text="@string/gbtnabt" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+     >
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/ll2"
+    android:id="@+id/ll">
+    
+    <TextView
+        android:id="@+id/ltvuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ltvuser"
+        android:textSize="4mm" />
+
+    <EditText 
+        android:id="@+id/letuser"
+        android:hint="@string/letuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>    
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    
+    android:id="@+id/ll2">
+    
+    <TextView 
+        android:id="@+id/ltvpasss"
+        android:text="@string/ltvpasss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="4mm"
+        />
+    <EditText 
+        android:id="@+id/letpasss"
+        android:hint="@string/letpasss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+</LinearLayout> 
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/ll2"
+    android:layout_centerHorizontal="true">
+
+<Button
+    android:id="@+id/lbtnlog"
+    android:layout_width="92dp"
+    android:layout_height="wrap_content"
+    android:text="@string/lbtnlog" />
+
+<Button
+    android:id="@+id/lbtncancel"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:text="@string/lbtncancel" />
+    
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/all"
+    >
+
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/llres"
+        android:layout_above="@+id/lltable"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+   <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/ttvnameres"   
+        android:text="@string/ttvnameres"/>
+       
+       <Spinner 
+           android:id="@+id/tspnres"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>       
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tbtnshwtab"
+        android:text="@string/tbtnshwtab"/>
+    </LinearLayout>
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lltable"
+    android:layout_above="@+id/lltime"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+    <TextView 
+        android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/ttvtab"
+           android:text="@string/ttvtab"/>
+       <Spinner 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tspntab"/>
+    
+    
+</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/lltime"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+      
+   <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/ttvtime"
+        android:text="@string/ttvtime"/>
+        <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/ttvtimerem"/>
+        
+</LinearLayout>
+
+ <Button 
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:id="@+id/tbtnshow"
+     android:text="@string/tbtnshow"
+     android:layout_centerHorizontal="true"
+     android:layout_below="@+id/lltime"/>   
+</RelativeLayout>

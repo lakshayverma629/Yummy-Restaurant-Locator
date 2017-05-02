@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/signup"
+    >
+
+<ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:id="@+id/sll"
+       android:orientation="vertical">
+   
+   <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvfirst"
+       android:id="@+id/stvfirst"
+       android:textSize="3mm"/>
+
+    <EditText
+        android:id="@+id/setfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="7mm"
+        android:hint="@string/setfirst" />
+
+</LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+       android:textSize="3mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvlast"
+       android:id="@+id/stvlast"/>
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="7mm"
+        android:hint="@string/setlast"
+        android:id="@+id/setlast"/>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvuname"
+       android:textSize="3mm"
+       android:id="@+id/stvuname"/>
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="7mm"
+        android:hint="@string/setuname"
+        android:id="@+id/setuname"/>
+</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="7mm"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvmail"
+       android:textSize="3mm"
+       android:id="@+id/stvmail"/>
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="7mm"
+        android:hint="@string/setmail"
+        android:id="@+id/setmail"/>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="3mm"
+       android:text="@string/stvdob"
+       android:id="@+id/stvdob"/>
+       
+<DatePicker
+    android:id="@+id/datePicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />    
+
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+       android:textSize="3mm"
+        android:layout_height="wrap_content"
+       android:text="@string/stvgender"
+       android:id="@+id/tvgender"/>
+    <RadioGroup 
+        android:layout_width="wrap_content"
+        android:layout_height="7mm"
+        android:id="@+id/rgsex"
+        android:orientation="horizontal">
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="4mm"
+            android:text="@string/srbmale"/>
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="4mm"
+            android:text="@string/srbfemale"/>
+        
+    </RadioGroup>
+    
+    </LinearLayout>
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<TextView
+       android:textSize="3mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvpass"
+       android:id="@+id/tvpass"/>
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="7mm"
+        android:hint="@string/setpass"
+        android:id="@+id/setpass"
+         android:inputType="textPassword"/>
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/stvrepass"
+       android:textSize="3mm"
+       android:id="@+id/stvrepass"
+      />
+<EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="7mm"
+        android:hint="@string/setrepass"
+        android:id="@+id/setrepass"
+         android:inputType="textPassword"/>
+</LinearLayout>
+
+<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/sbutsubmit"
+    android:text="@string/sbutsubmit"/>
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/sbutcancel"
+    android:text="@string/sbutcancel"/>
+</LinearLayout>
+    
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

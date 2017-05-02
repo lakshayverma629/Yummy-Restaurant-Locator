@@ -1,0 +1,20 @@
+package com.example.yummy;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class Time_remaining extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_time_remaining);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_time_remaining, menu);
+        return true;
+    }
+}

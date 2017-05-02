@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all"
+     >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false" >
+
+        <TextView
+            android:id="@+id/htvres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/htvres" />
+
+        <Spinner
+            android:id="@+id/hspnres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+		android:id="@+id/llbtn"
+		android:layout_below="@+id/linearLayout1"
+		android:layout_centerHorizontal="true"    >
+<Button 
+    android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:id="@+id/hbtnshow"
+    android:text="@string/hbtnshow"/>
+<Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:text="@string/hbtnback"
+    android:id="@+id/hbtnback"
+    android:layout_below="@+id/hgridView"/>
+</LinearLayout>
+
+<GridView
+        android:id="@+id/hgridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llbtn"
+        android:numColumns="2" >
+
+    </GridView>
+
+
+
+
+</RelativeLayout>
