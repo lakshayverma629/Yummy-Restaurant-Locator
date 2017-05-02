@@ -1,0 +1,4 @@
+# Yummy-Restaurant-Locator
+Restaurant Locator and Booking – Yummy!
+A fine dining restaurant chain, operating from multiple locations in various cities, wanted its customers to locate the nearest restaurant quickly and also see the current waiting time in those restaurant. As an option, a customer could also book a table from the phone only. Therefore, they planned to develop a restaurant locator and booking application, “Yummy!”.
+Yummy! will display the nearest restaurant locations on a map on the basis of the user’s current location. Each location will display the approximate waiting time (if any) in minutes. The user may select a location and book a table. The table will be kept reserved up to predetermined time duration from the time of booking. If the customer does not arrive in time, the same will be cancelled; but Yummy! Will provide a push notification 5 minutes before the expiry of booking.
